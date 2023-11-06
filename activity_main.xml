@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--First Row-->
+    <LinearLayout
+        android:id="@+id/parent1_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/child1_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Result is Here"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--Second Row-->
+    <LinearLayout
+        android:id="@+id/parent2_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent1_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child21_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child22_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child23_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child24_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--Third Row-->
+    <LinearLayout
+        android:id="@+id/parent3_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent2_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child31_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child32_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child33_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child34_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/diff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--Fourth Row-->
+    <LinearLayout
+        android:id="@+id/parent4_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent3_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child41_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child42_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child43_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child44_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--Fifth Row-->
+    <LinearLayout
+        android:id="@+id/parent5_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent4_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child51_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child52_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child53_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/divide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child54_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/equal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--Sixth Row-->
+    <LinearLayout
+        android:id="@+id/parent6_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent5_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child61_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/and"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/andsign"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child62_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child63_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/xor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="^"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child64_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/negate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="~"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--Seventh Row-->
+    <LinearLayout
+        android:id="@+id/parent7_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent6_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child71_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/prime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prime"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child72_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/perfect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfect"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child73_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/palin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Palin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child74_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/even"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Even"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--Eight Row-->
+    <LinearLayout
+        android:id="@+id/parent8_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parent7_linear"
+        >
+
+        <LinearLayout
+            android:id="@+id/child81_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/binary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bin(x)"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child82_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/octal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Octal(x)"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child83_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/hex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hex(x)"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/child84_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/modulus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
